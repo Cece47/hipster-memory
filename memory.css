@@ -1,0 +1,58 @@
+body {
+  background-color:#8FD4D9
+}
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size:60px;
+  text-align:center;
+  color:white;
+  text-shadow:0 0, 0 0 0, 3px 0 #35404F, 0 0;
+}
+.lives-time {
+  margin-left:10px;
+  margin-right:10px;
+}
+.lives-time p {
+  color:white;
+  display:inline-block;
+  font-size:20px;
+  text-shadow:0 0, 0 0 0, 3px 0 #35404F, 0 0;
+}
+.time {
+  float:right;
+  font-family:Helvetica;
+  font-size:30px;
+}
+form {
+  position:relative;
+  padding-left:140px;
+}
+label.membox {
+    background:#35404F;
+    padding:10px;
+    margin:2px;
+    display:inline-block;
+    width:120px;
+    height:120px;
+    line-height:35px;
+    text-align:center;
+    vertical-align:middle;
+    font-weight:bold;
+    font-size:70px;
+    border-radius:6px;
+    border:1.5px solid white;
+}
+label.membox input {display:none;}
+label.membox span {color:#35404F;}
+label.membox input:checked + span {
+  color:white;
+}
+.dev-details a {
+  text-decoration:none;
+  font-size:16px;
+  color:white;
+  font-family:Helvetica;
+  padding-top:100px;
+  margin-left:550px;
+  line-height:100px;
+}
