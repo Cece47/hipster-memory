@@ -42,8 +42,15 @@ label.membox {
     border-radius:6px;
     border:1.5px solid white;
 }
-label.membox input {display:none;}
-label.membox span {color:#35404F;}
+label.membox i {
+  margin-top:25px;
+}
+label.membox input {
+  display:none;
+}
+label.membox span {
+  color:#35404F;
+}
 label.membox input:checked + span {
   color:white;
 }
